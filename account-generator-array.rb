@@ -25,6 +25,8 @@ end
   email_addresses << email
 end
 
+#ALTERNATE OPTION USING TIMES LOOP RATHER THAN RANGE LOOP
+
 # i = 0
 # 5.times do
 #   name_split = student_names[i].split
