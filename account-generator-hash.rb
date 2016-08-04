@@ -4,7 +4,6 @@ student_data = []
 puts "How many students would you like to create a record for?"
 census = gets.chomp.to_i
 
-i = 0
 census.times do
   # create a hash to store the data
   student = {}
@@ -36,8 +35,6 @@ census.times do
   student["email"] = email_address
 
   student_data << student
-
-  i += 1
 end
 
 puts student_data
